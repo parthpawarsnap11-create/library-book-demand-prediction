@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Model files (generated)
+models/*.pkl
+
+# Generated data
+data/*.csv
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
