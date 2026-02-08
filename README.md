@@ -24,3 +24,52 @@ This prediction can help libraries in:
 
  Project Structure
 
+
+---
+
+ Data
+
+- The dataset is generated using a **Python script** (`data/generate_data.py`)
+- This ensures **reproducibility** and avoids using static datasets
+- Features include:
+  - Subject
+  - Semester
+  - Past borrow count
+  - Course relevance
+- Target:
+  - Demand level (High / Medium / Low)
+
+---
+
+Models Used
+
+The training pipeline trains and evaluates **three traditional ML models**:
+
+1. Logistic Regression  
+2. Random Forest Classifier  
+3. Decision Tree Classifier  
+
+Models are compared using:
+- Accuracy
+- F1-score  
+
+The **best performing model** is automatically selected and saved for use in the dashboard.
+
+---
+
+Dashboard
+
+A Streamlit-based dashboard is provided to:
+
+- Display a simple user interface
+- Take book details as input
+- Predict the demand level using the trained model
+
+This makes the system **prediction-ready** and usable by non-technical users.
+
+---
+How to Run the Project
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
