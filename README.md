@@ -1,6 +1,5 @@
- 1. Problem Definition (Clarity & Relevance)
+1. Problem Definition (Clarity & Relevance)
 
-What to say / write:
 
 The problem addressed in this project is predicting the demand level of university library books as High, Medium, or Low using academic and historical features such as school, subject, semester, past borrow count, and course relevance. This helps libraries plan inventory, allocate budgets better, and avoid overstocking or shortages.
 
@@ -8,7 +7,7 @@ The problem addressed in this project is predicting the demand level of universi
 
  2. Project Architecture (End-to-End ML Pipeline)
 
-What to say:
+
 
 The project is implemented as a complete end-to-end ML pipeline with four main components:
 
@@ -24,7 +23,7 @@ Deployment using a Streamlit dashboard (app.py)
 
  3. Folder Structure & Software Engineering Practices
 
-What to say:
+
 
 The project follows a clean and modular structure:
 
@@ -45,7 +44,7 @@ This structure follows good ML and software engineering practices.
 
  4. Version Control (GitHub)
 
-What to say:
+
 
 The entire project is maintained in a GitHub repository with proper folder structure, commits, and documentation. This ensures version control, reproducibility, and easy collaboration.
 
@@ -53,7 +52,6 @@ The entire project is maintained in a GitHub repository with proper folder struc
 
  5. Models Used & Model Selection
 
-What to say:
 
 I trained three machine learning models:
 
@@ -64,14 +62,10 @@ Decision Tree
 Random Forest
 I compared them using Accuracy and F1-score and selected the best performing model automatically. The best model is saved as best_model.pkl and used in the dashboard.
 
-Rubric match:
-✔ Multiple models tried
-✔ Comparison done
-✔ Best model selection explained
 
  6. Evaluation Metrics
 
-What to say:
+
 
 I used Accuracy and F1-score. Accuracy tells the overall correctness of predictions, and F1-score balances precision and recall, which is important when class distributions may be uneven. This helps in choosing a more reliable model.
 
@@ -79,7 +73,7 @@ I used Accuracy and F1-score. Accuracy tells the overall correctness of predicti
 
  7. Model Usage in Application
 
-What to say:
+
 
 In the Streamlit app, the trained model is loaded using joblib. User inputs are converted into numerical format, passed to the model, and the output class (0, 1, or 2) is mapped to Low, Medium, or High demand.
 
@@ -87,7 +81,7 @@ In the Streamlit app, the trained model is loaded using joblib. User inputs are 
 
  8. UI / Application Layer (Streamlit Dashboard)
 
-What to say:
+
 
 I used Streamlit to build a simple and interactive dashboard where users can select school, subject, semester, past borrow count, and course relevance, and get a real-time prediction. This converts the ML model into a usable application.
 
@@ -95,7 +89,6 @@ I used Streamlit to build a simple and interactive dashboard where users can sel
 
  9. Maintenance & Timeline (VERY IMPORTANT FOR RUBRIC)
 
-What to say:
 
 The model can be retrained periodically when new library data is available. The project is designed so that the data generation and training scripts can be rerun, and a new best model can replace the old one. This makes the system maintainable and updatable over time.
 
@@ -103,7 +96,7 @@ The model can be retrained periodically when new library data is available. The 
 
  10. Limitations & Future Scope
 
-What to say:
+
 
 Currently, the project uses synthetic data and predicts only demand categories. In the future, this can be extended to use real library data, predict exact quantities, add analytics dashboards, and automate retraining.
 
