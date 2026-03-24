@@ -1,75 +1,62 @@
-Library Book Demand Prediction System
+ Problem Statement
+University libraries struggle to manage book inventory efficiently. This system predicts book demand using academic and historical features such as:
 
-This project implements a minimal end-to-end Machine Learning system to predict the demand level of university library books as **High**, **Medium**, or **Low** based on historical and academic features.
-
-The goal of this project is not only to build a predictive model, but also to demonstrate a **production-like ML pipeline** including data generation, model training, evaluation, deployment via a dashboard, and version control.
-
----
-
-Problem Statement
-
-University libraries often face challenges in managing book inventory efficiently. Some books are in very high demand during certain semesters, while others remain underutilized. This system helps predict the **demand level of books** using features such as:
-
-- Subject
-- Semester
-- Past borrow count
-- Course relevance
-
-This prediction can help libraries in:
-- Better inventory planning
-- Budget allocation
-- Deciding number of copies to keep for each book
+School & Subject
+Semester
+Past borrow count
+Course relevance
 
 
+Project Structure
+library-book-demand-prediction/
+│
+├── dashboard/
+│   └── app.py                  # Streamlit web app
+│
+├── data/
+│   ├── generate_data.py        # Data generation script
+│   └── library_data.csv        # Dataset
+│
+├── models/
+│   ├── best_model.pkl          # Trained ML model
+│   └── model_metrics.json      # Model evaluation metrics
+│
+├── scripts/
+│   └── train_model.py          # Model training script
+│
+├── requirements.txt            # Python dependencies
+├── .gitignore
+└── README.md
 
- Project Structure
+Tech Stack
+ToolPurposePythonCore languagePandas & NumPyData processingScikit-LearnML model trainingStreamlitInteractive dashboardMatplotlib/SeabornData visualization
+
+How to Run
+1. Clone the repository
+bashgit clone https://github.com/parthpawarsnap11-create/library-book-demand-prediction.git
+cd library-book-demand-prediction
+2. Install dependencies
+bashpip install -r requirements.txt
+3. Train the model
+bashpython scripts/train_model.py
+4. Launch the dashboard
+bashstreamlit run dashboard/app.py
+
+ Model Performance
+MetricScoreAccuracySee model_metrics.jsonModel TypeBest selected via cross-validationClassesHigh / Medium / Low
+
+ Features
+
+✅ Predicts book demand as High / Medium / Low
+✅ Interactive Streamlit dashboard
+✅ Automated data generation
+✅ Model training with evaluation metrics
+✅ Clean, modular code structure
 
 
----
+Author
+Parth Pawar
+GitHub
 
- Data
-
-- The dataset is generated using a **Python script** (`data/generate_data.py`)
-- This ensures **reproducibility** and avoids using static datasets
-- Features include:
-  - Subject
-  - Semester
-  - Past borrow count
-  - Course relevance
-- Target:
-  - Demand level (High / Medium / Low)
-
----
-
-Models Used
-
-The training pipeline trains and evaluates **three traditional ML models**:
-
-1. Logistic Regression  
-2. Random Forest Classifier  
-3. Decision Tree Classifier  
-
-Models are compared using:
-- Accuracy
-- F1-score  
-
-The **best performing model** is automatically selected and saved for use in the dashboard.
-
----
-
-Dashboard
-
-A Streamlit-based dashboard is provided to:
-
-- Display a simple user interface
-- Take book details as input
-- Predict the demand level using the trained model
-
-This makes the system **prediction-ready** and usable by non-technical users.
-
----
-How to Run the Project
-
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
+📄 License
+This project is for academic purposes.
