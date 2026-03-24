@@ -1,0 +1,501 @@
+book_id,subject,semester,past_borrow_count,course_relevance,demand_level
+1,Physics,8,183,1,High
+2,Biology,3,169,1,High
+3,Biology,8,74,1,Medium
+4,Mathematics,3,68,1,Medium
+5,Computer Science,7,167,1,High
+6,Computer Science,5,34,0,Low
+7,Management,8,132,1,High
+8,Economics,8,34,1,Low
+9,Biology,5,141,0,Medium
+10,Mathematics,5,163,1,High
+11,Economics,2,52,1,Medium
+12,Economics,6,79,0,Medium
+13,Biology,8,49,1,Medium
+14,Physics,1,16,1,Low
+15,Management,5,77,1,Medium
+16,Management,8,109,0,Medium
+17,Management,3,105,1,Medium
+18,Economics,2,103,0,Medium
+19,Mathematics,2,115,0,Medium
+20,Management,4,105,1,Medium
+21,Management,6,188,0,Medium
+22,Management,4,30,0,Low
+23,Physics,6,176,1,High
+24,Computer Science,7,94,0,Medium
+25,Economics,2,7,0,Low
+26,Computer Science,4,5,1,Low
+27,Biology,5,122,0,Medium
+28,Economics,1,68,0,Medium
+29,Economics,4,34,1,Low
+30,Biology,5,100,0,Medium
+31,Mathematics,8,184,1,High
+32,Economics,4,47,0,Medium
+33,Biology,8,15,0,Low
+34,Management,4,103,0,Medium
+35,Mathematics,1,147,0,Medium
+36,Biology,6,82,1,Medium
+37,Physics,8,92,1,Medium
+38,Management,6,17,1,Low
+39,Economics,1,187,1,High
+40,Mathematics,8,193,0,Medium
+41,Mathematics,7,150,1,High
+42,Management,1,49,0,Medium
+43,Economics,1,123,0,Medium
+44,Management,1,111,1,Medium
+45,Management,8,62,1,Medium
+46,Physics,4,192,0,Medium
+47,Mathematics,4,182,1,High
+48,Biology,1,125,0,Medium
+49,Computer Science,2,43,0,Medium
+50,Mathematics,1,98,0,Medium
+51,Mathematics,6,90,0,Medium
+52,Biology,2,78,1,Medium
+53,Physics,3,159,0,Medium
+54,Biology,4,170,1,High
+55,Biology,4,191,0,Medium
+56,Computer Science,7,105,1,Medium
+57,Computer Science,7,89,0,Medium
+58,Computer Science,7,103,1,Medium
+59,Biology,4,15,0,Low
+60,Biology,6,83,0,Medium
+61,Management,5,73,0,Medium
+62,Mathematics,3,193,1,High
+63,Biology,2,39,0,Low
+64,Economics,6,0,0,Low
+65,Economics,3,46,0,Medium
+66,Physics,1,57,1,Medium
+67,Economics,4,195,0,Medium
+68,Mathematics,1,45,0,Medium
+69,Computer Science,5,5,0,Low
+70,Mathematics,5,76,0,Medium
+71,Computer Science,8,8,1,Low
+72,Mathematics,5,24,0,Low
+73,Computer Science,8,53,0,Medium
+74,Economics,7,36,1,Low
+75,Biology,2,71,0,Medium
+76,Biology,3,89,0,Medium
+77,Mathematics,7,135,1,High
+78,Computer Science,7,22,1,Low
+79,Physics,3,86,0,Medium
+80,Physics,5,12,0,Low
+81,Computer Science,3,126,1,High
+82,Economics,5,110,1,Medium
+83,Management,6,128,1,High
+84,Mathematics,2,163,0,Medium
+85,Physics,8,169,0,Medium
+86,Mathematics,2,72,0,Medium
+87,Physics,5,7,1,Low
+88,Management,5,183,0,Medium
+89,Management,7,127,1,High
+90,Computer Science,7,119,1,Medium
+91,Mathematics,7,49,1,Medium
+92,Computer Science,2,163,0,Medium
+93,Physics,5,153,1,High
+94,Physics,1,144,1,High
+95,Biology,1,120,1,Medium
+96,Mathematics,7,88,1,Medium
+97,Physics,1,141,0,Medium
+98,Physics,7,165,0,Medium
+99,Physics,3,176,0,Medium
+100,Biology,8,39,0,Low
+101,Computer Science,6,31,1,Low
+102,Biology,6,54,1,Medium
+103,Management,6,89,0,Medium
+104,Computer Science,3,200,0,Medium
+105,Economics,7,66,1,Medium
+106,Biology,1,37,0,Low
+107,Computer Science,2,13,1,Low
+108,Biology,8,117,0,Medium
+109,Mathematics,8,62,1,Medium
+110,Economics,3,85,0,Medium
+111,Economics,8,65,1,Medium
+112,Management,7,149,1,High
+113,Computer Science,5,97,1,Medium
+114,Biology,3,181,1,High
+115,Physics,5,25,1,Low
+116,Physics,4,63,1,Medium
+117,Economics,7,160,0,Medium
+118,Physics,7,54,1,Medium
+119,Management,3,14,1,Low
+120,Computer Science,7,59,1,Medium
+121,Physics,8,93,1,Medium
+122,Mathematics,3,133,0,Medium
+123,Management,2,115,1,Medium
+124,Computer Science,2,139,0,Medium
+125,Mathematics,7,44,0,Medium
+126,Economics,7,153,1,High
+127,Computer Science,6,125,0,Medium
+128,Physics,1,177,1,High
+129,Physics,7,192,1,High
+130,Management,1,186,0,Medium
+131,Physics,2,78,0,Medium
+132,Management,4,14,1,Low
+133,Physics,2,70,1,Medium
+134,Economics,5,189,1,High
+135,Physics,4,84,0,Medium
+136,Physics,6,105,0,Medium
+137,Biology,6,137,1,High
+138,Computer Science,1,147,1,High
+139,Management,4,184,0,Medium
+140,Mathematics,3,59,0,Medium
+141,Biology,4,118,1,Medium
+142,Physics,1,59,0,Medium
+143,Economics,3,199,1,High
+144,Economics,4,74,0,Medium
+145,Economics,5,41,1,Medium
+146,Computer Science,6,32,1,Low
+147,Physics,8,28,1,Low
+148,Economics,4,186,1,High
+149,Computer Science,2,186,1,High
+150,Economics,3,128,0,Medium
+151,Physics,3,63,0,Medium
+152,Mathematics,6,2,0,Low
+153,Economics,2,62,1,Medium
+154,Physics,8,190,0,Medium
+155,Physics,3,156,1,High
+156,Mathematics,4,66,1,Medium
+157,Physics,7,113,1,Medium
+158,Biology,7,85,0,Medium
+159,Mathematics,6,91,1,Medium
+160,Physics,5,58,0,Medium
+161,Mathematics,3,157,1,High
+162,Biology,1,96,1,Medium
+163,Management,4,198,1,High
+164,Mathematics,4,189,0,Medium
+165,Biology,8,129,0,Medium
+166,Physics,2,0,1,Low
+167,Biology,6,187,1,High
+168,Biology,4,18,0,Low
+169,Biology,7,10,1,Low
+170,Computer Science,4,132,1,High
+171,Physics,3,2,1,Low
+172,Physics,7,178,0,Medium
+173,Economics,2,169,0,Medium
+174,Biology,7,99,1,Medium
+175,Management,3,187,1,High
+176,Biology,6,35,0,Low
+177,Management,3,76,1,Medium
+178,Computer Science,5,186,1,High
+179,Economics,2,129,0,Medium
+180,Economics,5,198,0,Medium
+181,Computer Science,4,112,0,Medium
+182,Mathematics,3,29,1,Low
+183,Biology,2,31,1,Low
+184,Mathematics,1,133,0,Medium
+185,Physics,1,47,0,Medium
+186,Computer Science,6,169,0,Medium
+187,Mathematics,5,160,1,High
+188,Mathematics,6,189,0,Medium
+189,Mathematics,3,21,1,Low
+190,Mathematics,6,157,0,Medium
+191,Mathematics,7,60,1,Medium
+192,Management,8,176,1,High
+193,Computer Science,7,41,1,Medium
+194,Management,1,70,1,Medium
+195,Computer Science,7,140,0,Medium
+196,Biology,8,71,1,Medium
+197,Computer Science,3,92,1,Medium
+198,Mathematics,3,46,0,Medium
+199,Biology,8,132,1,High
+200,Physics,7,129,1,High
+201,Management,3,166,1,High
+202,Mathematics,2,42,1,Medium
+203,Mathematics,7,38,0,Low
+204,Economics,1,27,1,Low
+205,Computer Science,3,69,1,Medium
+206,Mathematics,3,68,0,Medium
+207,Management,1,25,1,Low
+208,Physics,5,66,1,Medium
+209,Biology,6,37,1,Low
+210,Management,5,91,1,Medium
+211,Physics,4,132,0,Medium
+212,Management,6,129,0,Medium
+213,Biology,2,47,0,Medium
+214,Management,6,149,0,Medium
+215,Management,6,183,1,High
+216,Computer Science,8,169,1,High
+217,Biology,7,19,1,Low
+218,Computer Science,7,83,0,Medium
+219,Computer Science,2,61,1,Medium
+220,Computer Science,7,99,0,Medium
+221,Biology,8,65,1,Medium
+222,Computer Science,8,125,1,High
+223,Physics,4,31,1,Low
+224,Biology,4,171,1,High
+225,Physics,2,127,1,High
+226,Economics,8,165,1,High
+227,Computer Science,4,103,0,Medium
+228,Physics,7,2,0,Low
+229,Management,3,100,0,Medium
+230,Computer Science,3,132,0,Medium
+231,Physics,4,161,1,High
+232,Computer Science,4,106,0,Medium
+233,Economics,1,64,0,Medium
+234,Biology,5,78,0,Medium
+235,Physics,7,48,1,Medium
+236,Computer Science,7,122,0,Medium
+237,Computer Science,6,117,1,Medium
+238,Biology,3,30,0,Low
+239,Mathematics,4,121,0,Medium
+240,Biology,5,45,1,Medium
+241,Computer Science,2,185,1,High
+242,Biology,1,87,0,Medium
+243,Economics,1,85,0,Medium
+244,Economics,4,61,0,Medium
+245,Management,1,130,1,High
+246,Physics,6,153,1,High
+247,Physics,8,140,0,Medium
+248,Economics,7,54,0,Medium
+249,Computer Science,2,8,1,Low
+250,Computer Science,4,115,1,Medium
+251,Mathematics,8,90,1,Medium
+252,Computer Science,3,52,1,Medium
+253,Biology,3,104,1,Medium
+254,Computer Science,6,132,0,Medium
+255,Computer Science,5,97,0,Medium
+256,Physics,3,147,0,Medium
+257,Economics,3,38,0,Low
+258,Economics,3,35,0,Low
+259,Management,1,100,1,Medium
+260,Physics,2,63,0,Medium
+261,Mathematics,1,107,1,Medium
+262,Biology,6,104,0,Medium
+263,Computer Science,7,25,0,Low
+264,Computer Science,2,166,0,Medium
+265,Mathematics,7,135,0,Medium
+266,Biology,4,137,1,High
+267,Biology,6,153,1,High
+268,Computer Science,6,154,1,High
+269,Mathematics,1,183,0,Medium
+270,Biology,8,154,1,High
+271,Management,8,152,1,High
+272,Physics,2,87,1,Medium
+273,Mathematics,2,67,0,Medium
+274,Economics,8,38,0,Low
+275,Biology,6,190,1,High
+276,Computer Science,4,79,0,Medium
+277,Biology,1,78,1,Medium
+278,Economics,3,170,0,Medium
+279,Mathematics,3,25,0,Low
+280,Biology,4,147,1,High
+281,Mathematics,7,56,1,Medium
+282,Mathematics,1,105,1,Medium
+283,Computer Science,3,165,0,Medium
+284,Computer Science,8,70,1,Medium
+285,Computer Science,2,110,0,Medium
+286,Economics,4,66,1,Medium
+287,Economics,5,155,0,Medium
+288,Physics,2,78,1,Medium
+289,Management,7,107,0,Medium
+290,Economics,6,14,1,Low
+291,Economics,2,78,0,Medium
+292,Economics,2,132,0,Medium
+293,Physics,5,104,1,Medium
+294,Management,3,34,1,Low
+295,Management,4,195,1,High
+296,Mathematics,7,181,0,Medium
+297,Physics,5,100,0,Medium
+298,Management,7,2,1,Low
+299,Computer Science,2,165,0,Medium
+300,Biology,6,77,1,Medium
+301,Biology,5,182,0,Medium
+302,Management,1,89,1,Medium
+303,Mathematics,1,109,0,Medium
+304,Computer Science,2,127,1,High
+305,Economics,6,176,1,High
+306,Computer Science,6,67,0,Medium
+307,Biology,2,118,1,Medium
+308,Economics,4,199,1,High
+309,Biology,2,31,1,Low
+310,Economics,5,1,0,Low
+311,Biology,6,39,1,Low
+312,Biology,4,150,1,High
+313,Computer Science,1,128,0,Medium
+314,Computer Science,4,23,1,Low
+315,Mathematics,1,147,1,High
+316,Economics,1,131,1,High
+317,Computer Science,4,91,0,Medium
+318,Physics,7,191,0,Medium
+319,Physics,8,125,1,High
+320,Biology,4,95,1,Medium
+321,Biology,6,149,1,High
+322,Biology,8,130,0,Medium
+323,Economics,8,8,1,Low
+324,Management,4,174,1,High
+325,Physics,7,26,1,Low
+326,Computer Science,6,26,1,Low
+327,Mathematics,1,51,0,Medium
+328,Biology,3,45,1,Medium
+329,Biology,4,186,0,Medium
+330,Economics,1,75,1,Medium
+331,Physics,3,149,0,Medium
+332,Mathematics,7,106,0,Medium
+333,Computer Science,1,101,1,Medium
+334,Economics,6,132,1,High
+335,Physics,5,90,1,Medium
+336,Computer Science,8,62,1,Medium
+337,Mathematics,7,88,1,Medium
+338,Economics,8,129,1,High
+339,Economics,1,10,1,Low
+340,Mathematics,6,59,0,Medium
+341,Biology,5,166,0,Medium
+342,Computer Science,1,32,1,Low
+343,Physics,3,146,1,High
+344,Computer Science,7,191,0,Medium
+345,Mathematics,6,197,0,Medium
+346,Economics,1,192,0,Medium
+347,Physics,2,30,1,Low
+348,Physics,7,36,1,Low
+349,Mathematics,5,7,0,Low
+350,Computer Science,6,64,0,Medium
+351,Management,3,115,0,Medium
+352,Management,4,148,0,Medium
+353,Computer Science,2,6,1,Low
+354,Economics,2,11,0,Low
+355,Physics,2,141,1,High
+356,Physics,5,52,1,Medium
+357,Computer Science,1,164,0,Medium
+358,Economics,8,83,1,Medium
+359,Economics,1,104,0,Medium
+360,Biology,7,137,0,Medium
+361,Economics,6,14,0,Low
+362,Management,6,151,0,Medium
+363,Biology,3,196,1,High
+364,Computer Science,6,82,0,Medium
+365,Economics,8,30,1,Low
+366,Mathematics,3,86,1,Medium
+367,Management,1,148,0,Medium
+368,Physics,7,47,0,Medium
+369,Biology,8,29,1,Low
+370,Economics,1,194,1,High
+371,Economics,4,40,1,Low
+372,Management,8,190,0,Medium
+373,Management,5,122,0,Medium
+374,Economics,5,92,1,Medium
+375,Mathematics,8,44,1,Medium
+376,Management,3,156,1,High
+377,Biology,8,157,0,Medium
+378,Computer Science,3,35,1,Low
+379,Management,3,163,1,High
+380,Management,5,76,1,Medium
+381,Computer Science,1,97,1,Medium
+382,Physics,5,182,1,High
+383,Economics,7,34,0,Low
+384,Computer Science,5,153,0,Medium
+385,Physics,5,31,0,Low
+386,Computer Science,4,164,1,High
+387,Physics,7,22,1,Low
+388,Economics,3,140,0,Medium
+389,Economics,6,146,1,High
+390,Management,8,198,0,Medium
+391,Physics,3,155,1,High
+392,Management,7,79,0,Medium
+393,Economics,1,150,0,Medium
+394,Physics,2,2,1,Low
+395,Biology,4,130,0,Medium
+396,Computer Science,2,197,1,High
+397,Mathematics,2,157,1,High
+398,Computer Science,6,41,1,Medium
+399,Physics,4,47,1,Medium
+400,Computer Science,6,62,0,Medium
+401,Mathematics,5,52,0,Medium
+402,Biology,2,196,1,High
+403,Management,4,108,1,Medium
+404,Management,7,62,0,Medium
+405,Mathematics,3,4,1,Low
+406,Mathematics,3,9,0,Low
+407,Computer Science,8,117,0,Medium
+408,Management,4,5,0,Low
+409,Physics,7,43,1,Medium
+410,Biology,2,103,0,Medium
+411,Biology,2,147,1,High
+412,Computer Science,2,183,1,High
+413,Computer Science,6,110,1,Medium
+414,Physics,7,142,1,High
+415,Biology,3,18,1,Low
+416,Economics,2,174,1,High
+417,Computer Science,8,178,1,High
+418,Biology,2,188,1,High
+419,Mathematics,2,45,0,Medium
+420,Computer Science,2,160,0,Medium
+421,Management,5,9,1,Low
+422,Computer Science,6,2,0,Low
+423,Management,1,42,0,Medium
+424,Physics,1,44,1,Medium
+425,Physics,1,62,1,Medium
+426,Mathematics,1,104,1,Medium
+427,Management,3,193,1,High
+428,Mathematics,8,89,1,Medium
+429,Economics,6,25,1,Low
+430,Mathematics,6,80,0,Medium
+431,Economics,5,69,1,Medium
+432,Biology,7,29,1,Low
+433,Computer Science,4,150,0,Medium
+434,Computer Science,7,57,0,Medium
+435,Physics,3,126,0,Medium
+436,Physics,6,1,1,Low
+437,Mathematics,3,8,0,Low
+438,Management,5,0,0,Low
+439,Mathematics,6,127,0,Medium
+440,Computer Science,6,26,0,Low
+441,Computer Science,2,69,1,Medium
+442,Management,3,39,1,Low
+443,Physics,5,144,1,High
+444,Biology,4,35,1,Low
+445,Biology,8,114,1,Medium
+446,Biology,5,57,0,Medium
+447,Biology,5,158,1,High
+448,Physics,5,163,1,High
+449,Mathematics,1,44,1,Medium
+450,Computer Science,5,65,0,Medium
+451,Biology,3,114,0,Medium
+452,Physics,8,9,1,Low
+453,Biology,8,83,0,Medium
+454,Management,6,115,1,Medium
+455,Computer Science,8,98,1,Medium
+456,Computer Science,6,183,1,High
+457,Mathematics,7,8,1,Low
+458,Physics,4,160,1,High
+459,Economics,3,39,0,Low
+460,Physics,4,67,0,Medium
+461,Management,4,168,1,High
+462,Biology,3,88,0,Medium
+463,Management,2,22,0,Low
+464,Biology,2,38,0,Low
+465,Economics,4,124,0,Medium
+466,Economics,4,178,0,Medium
+467,Management,2,107,0,Medium
+468,Computer Science,4,141,0,Medium
+469,Biology,2,35,1,Low
+470,Economics,3,15,0,Low
+471,Management,3,80,1,Medium
+472,Economics,5,105,0,Medium
+473,Computer Science,4,68,0,Medium
+474,Biology,4,99,1,Medium
+475,Economics,4,37,0,Low
+476,Biology,3,13,0,Low
+477,Mathematics,1,143,0,Medium
+478,Biology,8,112,0,Medium
+479,Biology,8,86,0,Medium
+480,Economics,4,36,1,Low
+481,Biology,8,114,0,Medium
+482,Economics,8,38,0,Low
+483,Mathematics,5,126,0,Medium
+484,Physics,5,159,1,High
+485,Economics,2,83,1,Medium
+486,Biology,1,152,0,Medium
+487,Management,3,114,1,Medium
+488,Economics,3,102,1,Medium
+489,Management,1,20,1,Low
+490,Management,2,102,1,Medium
+491,Biology,4,76,1,Medium
+492,Economics,6,34,0,Low
+493,Computer Science,3,83,1,Medium
+494,Management,3,100,1,Medium
+495,Mathematics,6,169,0,Medium
+496,Computer Science,2,24,0,Low
+497,Economics,3,99,0,Medium
+498,Physics,2,162,1,High
+499,Computer Science,2,196,0,Medium
+500,Physics,7,140,0,Medium

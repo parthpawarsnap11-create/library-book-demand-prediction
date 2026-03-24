@@ -1,0 +1,117 @@
+{
+    "Logistic Regression": {
+        "Accuracy": 0.99,
+        "F1-score": 0.9899,
+        "Precision": 0.9902,
+        "Recall": 0.99,
+        "Confusion Matrix": [
+            [
+                17,
+                0,
+                1
+            ],
+            [
+                0,
+                17,
+                0
+            ],
+            [
+                0,
+                0,
+                65
+            ]
+        ]
+    },
+    "Random Forest": {
+        "Accuracy": 1.0,
+        "F1-score": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "Confusion Matrix": [
+            [
+                18,
+                0,
+                0
+            ],
+            [
+                0,
+                17,
+                0
+            ],
+            [
+                0,
+                0,
+                65
+            ]
+        ]
+    },
+    "Decision Tree": {
+        "Accuracy": 1.0,
+        "F1-score": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "Confusion Matrix": [
+            [
+                18,
+                0,
+                0
+            ],
+            [
+                0,
+                17,
+                0
+            ],
+            [
+                0,
+                0,
+                65
+            ]
+        ]
+    },
+    "Support Vector Machine": {
+        "Accuracy": 0.85,
+        "F1-score": 0.8514,
+        "Precision": 0.8531,
+        "Recall": 0.85,
+        "Confusion Matrix": [
+            [
+                11,
+                0,
+                7
+            ],
+            [
+                0,
+                17,
+                0
+            ],
+            [
+                8,
+                0,
+                57
+            ]
+        ]
+    },
+    "K-Nearest Neighbors": {
+        "Accuracy": 0.8,
+        "F1-score": 0.7905,
+        "Precision": 0.7841,
+        "Recall": 0.8,
+        "Confusion Matrix": [
+            [
+                6,
+                0,
+                12
+            ],
+            [
+                0,
+                17,
+                0
+            ],
+            [
+                8,
+                0,
+                57
+            ]
+        ]
+    }
+}
